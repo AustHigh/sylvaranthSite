@@ -3,6 +3,7 @@
     <head>
         <title>The World of Sylvaranth - The World</title>
         <link rel="stylesheet" href="indexStyle.css">
+        <link rel="stylesheet" href="worldpage.css">
     </head>
     <body>
         <div id="titleBox">
@@ -15,6 +16,26 @@
                     <a href="https://sylvaranth.duckdns.org:8443/campaign.html">THE CAMPAIGN</a>
                     <a href="https://sylvaranth.duckdns.org:8443/lore.html">THE LORE</a>
             </div>
+
+            <img id="map" src="images/sylvaranth_map.jpg">
+
+            <div class="popup" onclick="popUp()" style="font-size: 30px;">&#9733
+                <span class="popuptext" id="myPopup">
+                    KHODEL:
+                    A port city ruled by King Khodel III. A budding, cultural city. Filled with artists, writers, and musicians who
+                    come from all around to make a living doing what they enjoy. <br> Full of many works from local artists, the Khodel Institute
+                    of Art is well known for its spectacular pieces. <br> This city is also home to The Docks, full of sailors and merchants. This is always a lively side of town
+                    and the source of the city's main imports and exports across the sea. <br> This city is where our heroes saved King Kohdel from a Doppleganger attack, and earned
+                    his respect, earning a place among his royal guard.
+                </span>
+            </div>
+
         
     </body>
+    <script>
+        function popUp(){
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
 </html>
