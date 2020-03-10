@@ -4,13 +4,13 @@
 }
 
 .popup {
-    position: relative;
+    position: absolute;
     display: inline-block;
     cursor: pointer;
     color: yellow;
     font-size: 15px;
-    left: 935px;
-    bottom: 412px;
+    left: 49.16%;
+    bottom: 23.5%;
     margin: 0;
 }
 
