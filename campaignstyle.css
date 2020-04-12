@@ -1,0 +1,48 @@
+.slideshow-container {
+    position: relative;
+    background-image: url('images/old_parchment.jpg');
+    width: 75%;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    left: 15%;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.slides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    line-height: 2;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    color: gray;
+}
+
+
