@@ -5,12 +5,11 @@
 
 .popup {
     position: absolute;
-    
     cursor: pointer;
     color: yellow;
     font-size: 15px;
     left: 49.16%;
-    bottom: 23.5%;
+    bottom: 39.5%;
     margin: 0;
 }
 
