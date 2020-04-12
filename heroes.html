@@ -3,6 +3,7 @@
     <head>
         <title>The World of Sylvaranth - The Heroes</title>
         <link rel="stylesheet" href="indexStyle.css">
+        <link rel="stylesheet" href="heroespage.css">
     </head>
     <body>
         <div id="titleBox">
@@ -15,6 +16,76 @@
                     <a href="https://sylvaranth.duckdns.org:8443/campaign.html">CAMPAIGN</a>
                     <a href="https://sylvaranth.duckdns.org:8443/lore.html">LORE</a>
             </div>
+
+            <div id="root">
+            <div id="text">
+                <h2>BLADE: THE TABAXI FIGHTER</h2>
+                <p>
+                    Blade is a fierce fighter with an even fiercer desire to find any links to her clan which she was exiled from. Excelling in both martial weapons and hand-to-hand combat,
+                    Blade is never afraid to get up in an enemy's face. ((idk put backstory here once u can))
+                </p>
+                <br><br>
+                <h2>BOLLOCK: THE HALFLING DRUNKEN BRAWLER</h2>
+                <p>
+                    The only thing more painful than Bollock's alcoholism is his right hook. His left hook is pretty painful too. Bollock always seems to find himself in trouble, whether
+                    it be through drunken rambling or otherwise. However, Bollock is more than capable of handling himself in a fight, as he is able to empower his fists (which already pack quite
+                    a punch) with Ki to make them even more effective, or to dish out faster hits. 
+                    <br>
+                    <br>
+                    Bollock grew up in vast wealth, which his parents shared with him through a monthly allowance. He used this monthly allowance to constantly go out and drink after his schooling.
+                    After his parents found out, they cut off his allowance. In order to afford his alcoholism, Bollock began starting barfights to earn money. After drinking so much, Bollock began
+                    not being hungover the night after. The alcohol barely did anything for him anymore. However, this just caused him to drink more, to chase the feeling it used to give him. In order
+                    to earn more money to further fuel his alcoholism, he began adventuring...
+                </p>
+                <br><br>
+                <h2>KALGAD: THE GOLIATH BARBARIAN</h2>
+                <p>
+                    Being a mountain-dwelling descendant of giants, Kalgad has an inherently short temper. This is brought to an extreme in the heat of battle. Able to fly into
+                    a rage at the drop of a hat, Kalgad uses his immense strength to overpower his opponents, weilding a mighty greataxe. Kalgad has a short patience and a disdain
+                    for evil-doers. 
+                    <br>
+                    <br>
+                    Hailing from the Kathumnai mountains in the northern region of Sylvaranth, Kalgad was a well respected member of the Thal-Kathumani clan. However, Kalgad had grown
+                    tired of staying secluded within the mountains. He desired more adventure, a more challenging existence. Down the mountain he descended, into the vast and untamed wilderness
+                    of Sylvaranth...
+                </p>
+                <br><br>
+                <h2>ZADKIEL: THE ANGELIC SORCERER</h2>
+                <p>
+                    Zadkiel is an Aasimar sorcerer, specializing in evocation and transmutation magic. As an Aasimar, Zadkiel can call upon his angelic spirit to sprout heavenly wings
+                    which allow him to fly. Zadkiel is also a helpful soul, always trying to do good in the name of his angelic guardian, Armaita.
+                    <br>
+                    <br>
+                    Zadkiel goes from town to town helping all those in need. With Armaita guiding him, he cleans the land in a raidant glow. Abandoned at birth and raised by an
+                    orphanage, Zadkiel swore to protect the innocent, not only for himself and others, but for the Gods who chose him...
+                </p>
+            </div>
+        
+
+        <div class="container">
+            <h2 id="formtitle">Write something to Sylvaranth's heroes!</h2>
+            <form action="mailto:austinhigh322@gmail.com" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+
+                <label for="hero">Which hero do you want to write to?</label>
+                <select id="hero" name="hero">
+                    <option value="blade">Blade</option>
+                    <option value="bollock">Bollock</option>
+                    <option value="kalgad">Kalgad</option>
+                    <option value="zadkiel">Zadkiel</option>
+                </select>
+
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Country...">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="message" placeholder="What do you want to say...?" style="height: 200px;"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
         
     </body>
 </html>
