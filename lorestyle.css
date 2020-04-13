@@ -27,11 +27,7 @@ button {
 
 @media (max-width: 600px){
 
-    button {
-        width: 90px;
-        height: 40px;
-        margin-top: 140px;
-    }
+    
 
     #titlebox{
         font-size: 24px;
@@ -39,5 +35,11 @@ button {
 
     #navigation a {
         font-size: 10px;
+    }
+
+    button {
+        width: 90px;
+        height: 40px;
+        margin-top: 140px;
     }
 }
