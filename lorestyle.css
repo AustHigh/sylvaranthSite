@@ -21,3 +21,16 @@ p{
     color: white;
 }
 
+button {
+    margin-top: 40px;
+}
+
+@media (max-width: 600px){
+
+    button {
+        width: 90px;
+        height: 40px;
+        margin-top: 140px;
+    }
+
+}
