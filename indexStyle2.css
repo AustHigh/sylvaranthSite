@@ -35,14 +35,3 @@ img:hover{
     height: 500px;
 }
 
-@media (max-width: 600px){
-
-
-    #titlebox{
-        font-size: 24px;
-    }
-
-    #navigation a {
-        font-size: 10px;
-    }
-}

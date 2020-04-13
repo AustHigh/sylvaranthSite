@@ -48,13 +48,4 @@ input[type=submit]:hover {
     color: white;
 }
 
-@media (max-width: 600px){
 
-    #titlebox{
-        font-size: 24px;
-    }
-
-    #navigation a {
-        font-size: 10px;
-    }
-}
