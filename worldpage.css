@@ -62,9 +62,13 @@
     }
 
     .popup{
-      font-size: 5%;
+      font-size: 3px;
       left: 45.16%;
     bottom: 32.5%;
+    }
+
+    .popuptext{
+      font-size: 3px;
     }
   }
   
