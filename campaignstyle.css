@@ -55,6 +55,10 @@ p{
     #navigation a {
         font-size: 10px;
     }
+
+    .prev, .next {
+        font-size: 45px;
+    }
 }
 
 
