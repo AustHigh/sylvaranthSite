@@ -3,6 +3,7 @@
     <head>
         <title>The World of Sylvaranth - The Lore</title>
         <link rel="stylesheet" href="indexStyle.css">
+        <link rel="stylesheet" href="lorestyle.css">
     </head>
     <body>
         <div id="titleBox">
@@ -15,6 +16,18 @@
                     <a href="https://sylvaranth.duckdns.org:8443/campaign.html">CAMPAIGN</a>
                     <a class ="active" href="https://sylvaranth.duckdns.org:8443/lore.html">LORE</a>
             </div>
-        
+            <div id="root">
+        <h2>Click the 'Discover Lore' button for a random fun fact about Sylvaranth!</h2>
+                <div id="display">
+
+                </div>
+
+                <button onclick="pickRandom()">Discover Lore</button>
+
+                <br><br><br>
+                <p>(Sorry there are only so many fun facts, as the players, and even the Dungeon Master, are still learning things about the world!)</p>
+
+        </div>
+            <script src="randomlore.js"></script>
     </body>
 </html>
