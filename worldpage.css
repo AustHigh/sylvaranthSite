@@ -60,6 +60,7 @@
     #navigation a {
         font-size: 10px;
     }
+  }
   
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
