@@ -18,4 +18,3 @@ function pickRandom(){
         document.getElementById("display").innerHTML = factArray[randomInt];
     }
 }
-
