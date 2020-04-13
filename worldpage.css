@@ -48,6 +48,14 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
   }
+
+  @media (max-width: 600px){
+
+    #map{
+      object-fit: none;
+    }
+
+  }
   
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
